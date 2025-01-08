@@ -13,13 +13,13 @@ string \mbox{\hyperlink{interface_cost_calculation_a_p_i_library_1_1_i_cost_calc
 \begin{DoxyCompactList}\small\item\em Tworzy nową kalkulację. \end{DoxyCompactList}\item 
 string \mbox{\hyperlink{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_a16ad6f8667207998326c550ab5e64095}{Create\+Partition}} (string calculation\+Id, string username, string name, double total\+RMSTCost, double total\+Cost, double general\+Construction\+Cost, double laboratory\+Cost, double geodesy\+Cost, double general\+Costs, double profit\+Or\+Risk, double financing\+Cost, double final\+Unit\+Price\+In\+Requester\+Units, double total\+Value\+In\+Requester\+Units)
 \begin{DoxyCompactList}\small\item\em Tworzy partycję dla wskazanej kalkulacji. Partycje grupują sekcje. Jedna kalkulacja może mieć wiele partycji. \end{DoxyCompactList}\item 
-string \mbox{\hyperlink{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_a7488be431cd82e85a1b425531b846e00}{Create\+Section}} (string partition\+Id, string username, int item\+No, string description, string unit, double quantity, double quantity\+Made, double quantity\+Correction\+Factor, double unit\+Conversion\+Factor, double converted\+Quantity, double total\+RMSTCost, string subcontractor\+Name, double subcontractor\+Unit\+Price, double subcontractor\+Value, double total\+Cost, double unit\+Cost\+In\+Requester\+Units, double unit\+Cost\+In\+Calculated\+Units, double general\+Construction\+Cost, double laboratory\+Cost, double geodesy\+Cost, double general\+Costs, double profit\+Or\+Risk, double financing\+Cost, double final\+Unit\+Price\+In\+Requester\+Units, double total\+Value\+In\+Requester\+Units, string quantity\+Made\+Unit, string status)
+string \mbox{\hyperlink{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_a898f215c5f17600eae7bef700f747149}{Create\+Section}} (string partition\+Id, string username, int item\+No, string description, string unit, double quantity, double quantity\+Made, double quantity\+Correction\+Factor, double unit\+Conversion\+Factor, double converted\+Quantity, double total\+RMSTCost, string subcontractor\+Name, double subcontractor\+Unit\+Price, double subcontractor\+Value, double total\+Cost, double unit\+Cost\+In\+Requester\+Units, double unit\+Cost\+In\+Calculated\+Units, double general\+Construction\+Cost, double laboratory\+Cost, double geodesy\+Cost, double general\+Costs, double profit\+Or\+Risk, double financing\+Cost, double final\+Unit\+Price\+In\+Requester\+Units, double total\+Value\+In\+Requester\+Units, string quantity\+Made\+Unit, string status, string group\+Of\+Work)
 \begin{DoxyCompactList}\small\item\em Tworzy nową sekcję w wskazanej partycji. Sekcja to jeden wiersz budżetowy/z oferty w pliku Excel. \end{DoxyCompactList}\item 
-string \mbox{\hyperlink{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_aa6c4811f9b7379248c8284eb6a7b2a4f}{Create\+Sub\+Section}} (string section\+Id, string username, double efficiency, double total\+RMSTCost, double total\+Cost, double unit\+Cost\+In\+Requester\+Units, double unit\+Cost\+In\+Calculated\+Units, string subsection\+Code, string subsection\+Name, string efficiency\+Unit)
+string \mbox{\hyperlink{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_a2592444ab9076b4d7d243f21480c3299}{Create\+Sub\+Section}} (string section\+Id, string username, double efficiency, double total\+RMSTCost, double total\+Cost, double unit\+Cost\+In\+Requester\+Units, double unit\+Cost\+In\+Calculated\+Units, string subsection\+Code, string subsection\+Name, string efficiency\+Unit, string group\+Of\+Work)
 \begin{DoxyCompactList}\small\item\em Tworzy nowa podsekcję/panel. \end{DoxyCompactList}\item 
-string \mbox{\hyperlink{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_af53f5f8cd4306251c55ee21330586f0b}{Create\+Sub\+Sub\+Section}} (string sub\+Section\+Id, string username, int type\+Value, double total\+RMSTCost, double total\+Cost, double unit\+Cost\+In\+Requester\+Units, double unit\+Cost\+In\+Calculated\+Units, string sub\+Sub\+Section\+Name)
+string \mbox{\hyperlink{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_a94dfc1f6f04686845948b5a1f631837b}{Create\+Sub\+Sub\+Section}} (string sub\+Section\+Id, string username, int type\+Value, double total\+RMSTCost, double total\+Cost, double unit\+Cost\+In\+Requester\+Units, double unit\+Cost\+In\+Calculated\+Units, string sub\+Sub\+Section\+Name, string group\+Of\+Work)
 \begin{DoxyCompactList}\small\item\em Tworzy podesekcje/katgorie np robocizna,materiały. \end{DoxyCompactList}\item 
-string \mbox{\hyperlink{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_a4c4e2e3bb1120c9e8fab122927410db7}{Create\+Sub\+Sub\+Section\+Item}} (string sub\+Sub\+Section\+Id, string username, double resource\+Quantity\+For\+Given\+Efficiency, double resource\+Quantity\+TORMSTQuanity, double resource\+Unit\+Price, double total\+Resource\+Cost, string resource\+Code, string unit, string resource\+Name)
+string \mbox{\hyperlink{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_a2fa54a5e3f6e7292f10cc83b214e2fe4}{Create\+Sub\+Sub\+Section\+Item}} (string sub\+Sub\+Section\+Id, string username, double resource\+Quantity\+For\+Given\+Efficiency, double resource\+Quantity\+TORMSTQuanity, double resource\+Unit\+Price, double total\+Resource\+Cost, string resource\+Code, string unit, string resource\+Name, string group\+Of\+Work)
 \begin{DoxyCompactList}\small\item\em Tworzy pozycje w podkategorii. \end{DoxyCompactList}\item 
 \Hypertarget{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_af678c035f401f5faa17c18bf39efec13}\label{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_af678c035f401f5faa17c18bf39efec13} 
 string {\bfseries Create\+New\+Version} (string calculation\+Id, string previous\+Version\+Id, string description, string user\+Id, string username)
@@ -113,11 +113,11 @@ Identyfikator partycji.
 
 Implementowany w \mbox{\hyperlink{class_cost_calculation_a_p_i_library_1_1_cost_calculation_api_client_a4904c3334882a5852917618bd32e0c62}{Cost\+Calculation\+APILibrary.\+Cost\+Calculation\+Api\+Client}}.
 
-\Hypertarget{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_a7488be431cd82e85a1b425531b846e00}\index{CostCalculationAPILibrary.ICostCalculationApi@{CostCalculationAPILibrary.ICostCalculationApi}!CreateSection@{CreateSection}}
+\Hypertarget{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_a898f215c5f17600eae7bef700f747149}\index{CostCalculationAPILibrary.ICostCalculationApi@{CostCalculationAPILibrary.ICostCalculationApi}!CreateSection@{CreateSection}}
 \index{CreateSection@{CreateSection}!CostCalculationAPILibrary.ICostCalculationApi@{CostCalculationAPILibrary.ICostCalculationApi}}
 \doxysubsubsection{\texorpdfstring{CreateSection()}{CreateSection()}}
-{\footnotesize\ttfamily \label{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_a7488be431cd82e85a1b425531b846e00} 
-string Cost\+Calculation\+APILibrary.\+ICost\+Calculation\+Api.\+Create\+Section (\begin{DoxyParamCaption}\item[{string}]{partition\+Id}{, }\item[{string}]{username}{, }\item[{int}]{item\+No}{, }\item[{string}]{description}{, }\item[{string}]{unit}{, }\item[{double}]{quantity}{, }\item[{double}]{quantity\+Made}{, }\item[{double}]{quantity\+Correction\+Factor}{, }\item[{double}]{unit\+Conversion\+Factor}{, }\item[{double}]{converted\+Quantity}{, }\item[{double}]{total\+RMSTCost}{, }\item[{string}]{subcontractor\+Name}{, }\item[{double}]{subcontractor\+Unit\+Price}{, }\item[{double}]{subcontractor\+Value}{, }\item[{double}]{total\+Cost}{, }\item[{double}]{unit\+Cost\+In\+Requester\+Units}{, }\item[{double}]{unit\+Cost\+In\+Calculated\+Units}{, }\item[{double}]{general\+Construction\+Cost}{, }\item[{double}]{laboratory\+Cost}{, }\item[{double}]{geodesy\+Cost}{, }\item[{double}]{general\+Costs}{, }\item[{double}]{profit\+Or\+Risk}{, }\item[{double}]{financing\+Cost}{, }\item[{double}]{final\+Unit\+Price\+In\+Requester\+Units}{, }\item[{double}]{total\+Value\+In\+Requester\+Units}{, }\item[{string}]{quantity\+Made\+Unit}{, }\item[{string}]{status}{}\end{DoxyParamCaption})}
+{\footnotesize\ttfamily \label{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_a898f215c5f17600eae7bef700f747149} 
+string Cost\+Calculation\+APILibrary.\+ICost\+Calculation\+Api.\+Create\+Section (\begin{DoxyParamCaption}\item[{string}]{partition\+Id}{, }\item[{string}]{username}{, }\item[{int}]{item\+No}{, }\item[{string}]{description}{, }\item[{string}]{unit}{, }\item[{double}]{quantity}{, }\item[{double}]{quantity\+Made}{, }\item[{double}]{quantity\+Correction\+Factor}{, }\item[{double}]{unit\+Conversion\+Factor}{, }\item[{double}]{converted\+Quantity}{, }\item[{double}]{total\+RMSTCost}{, }\item[{string}]{subcontractor\+Name}{, }\item[{double}]{subcontractor\+Unit\+Price}{, }\item[{double}]{subcontractor\+Value}{, }\item[{double}]{total\+Cost}{, }\item[{double}]{unit\+Cost\+In\+Requester\+Units}{, }\item[{double}]{unit\+Cost\+In\+Calculated\+Units}{, }\item[{double}]{general\+Construction\+Cost}{, }\item[{double}]{laboratory\+Cost}{, }\item[{double}]{geodesy\+Cost}{, }\item[{double}]{general\+Costs}{, }\item[{double}]{profit\+Or\+Risk}{, }\item[{double}]{financing\+Cost}{, }\item[{double}]{final\+Unit\+Price\+In\+Requester\+Units}{, }\item[{double}]{total\+Value\+In\+Requester\+Units}{, }\item[{string}]{quantity\+Made\+Unit}{, }\item[{string}]{status}{, }\item[{string}]{group\+Of\+Work}{}\end{DoxyParamCaption})}
 
 
 
@@ -126,7 +126,7 @@ Tworzy nową sekcję w wskazanej partycji. Sekcja to jeden wiersz budżetowy/z o
 
 \begin{DoxyCode}{0}
 \DoxyCodeLine{\textcolor{stringliteral}{''}\ Wywołanie\ w\ VBA}
-\DoxyCodeLine{Public\ Function\ \mbox{\hyperlink{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_a7488be431cd82e85a1b425531b846e00}{CreateSection}}(partitionId\ As\ String,\ username\ As\ String,\ itemNo\ As\ Long,\ description\ As\ String,\ unit\ As\ String,\ quantity\ As\ Double,\ quantityMade\ As\ Double,\ quantityCorrectionFactor\ As\ Double,\ unitConversionFactor\ As\ Double,\ convertedQuantity\ As\ Double,\ totalRMSTCost\ As\ Double,\ subcontractorName\ As\ String,\ subcontractorUnitPrice\ As\ Double,\ subcontractorValue\ As\ Double,\ \_}
+\DoxyCodeLine{Public\ Function\ \mbox{\hyperlink{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_a898f215c5f17600eae7bef700f747149}{CreateSection}}(partitionId\ As\ String,\ username\ As\ String,\ itemNo\ As\ Long,\ description\ As\ String,\ unit\ As\ String,\ quantity\ As\ Double,\ quantityMade\ As\ Double,\ quantityCorrectionFactor\ As\ Double,\ unitConversionFactor\ As\ Double,\ convertedQuantity\ As\ Double,\ totalRMSTCost\ As\ Double,\ subcontractorName\ As\ String,\ subcontractorUnitPrice\ As\ Double,\ subcontractorValue\ As\ Double,\ \_}
 \DoxyCodeLine{totalCost\ As\ Double,\ unitCostInRequesterUnits\ As\ Double,\ unitCostInCalculatedUnits\ As\ Double,\ generalConstructionCost\ As\ Double,\ laboratoryCost\ As\ Double,\ geodesyCost\ As\ Double,\ generalCosts\ As\ Double,\ profitOrRisk\ As\ Double,\ financingCost\ As\ Double,\ finalUnitPriceInRequesterUnits\ As\ Double,\ totalValueInRequesterUnits\ As\ Double,\ quantityMadeUnit\ As\ String,\ status\ As\ String)\ As\ String}
 
 \end{DoxyCode}
@@ -188,19 +188,21 @@ Tworzy nową sekcję w wskazanej partycji. Sekcja to jeden wiersz budżetowy/z o
 \hline
 {\em status} & Status\\
 \hline
+{\em group\+Of\+Work} & Dodanie kolumny Grypa Robót (np. w kolumnie T). Grupa uzupełniana na linii budżetowej z pierwszego wstawionego panela. Zachowanie\+: po wstawieniu panela z RP, uzupełniana jest Grupa Robót na pozycji budżetowej(z nr w kol A) z wstawionego panela, następne panele nie powodują zmiany grupy robót i przyjmują grupę robót zdefiniowaną w linii budżetowej.(ignorując grupę z RP).Użytkownik może zmienić grupę na pozycji budżetowej(słownik jw.), wtedy wszystkie podpozycje(panele i pozycje paneli) w danej linii otrzymują daną grupą budżetową.\\
+\hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Zwraca}
 Identyfikator Sekcji/linii budzetowej.
 \end{DoxyReturn}
 
 
-Implementowany w \mbox{\hyperlink{class_cost_calculation_a_p_i_library_1_1_cost_calculation_api_client_a80aeab2ca720d4f5ea02c8b8be9dcc3e}{Cost\+Calculation\+APILibrary.\+Cost\+Calculation\+Api\+Client}}.
+Implementowany w \mbox{\hyperlink{class_cost_calculation_a_p_i_library_1_1_cost_calculation_api_client_a44a7c979c6ab75f5ae33df12e1f4f2a0}{Cost\+Calculation\+APILibrary.\+Cost\+Calculation\+Api\+Client}}.
 
-\Hypertarget{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_aa6c4811f9b7379248c8284eb6a7b2a4f}\index{CostCalculationAPILibrary.ICostCalculationApi@{CostCalculationAPILibrary.ICostCalculationApi}!CreateSubSection@{CreateSubSection}}
+\Hypertarget{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_a2592444ab9076b4d7d243f21480c3299}\index{CostCalculationAPILibrary.ICostCalculationApi@{CostCalculationAPILibrary.ICostCalculationApi}!CreateSubSection@{CreateSubSection}}
 \index{CreateSubSection@{CreateSubSection}!CostCalculationAPILibrary.ICostCalculationApi@{CostCalculationAPILibrary.ICostCalculationApi}}
 \doxysubsubsection{\texorpdfstring{CreateSubSection()}{CreateSubSection()}}
-{\footnotesize\ttfamily \label{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_aa6c4811f9b7379248c8284eb6a7b2a4f} 
-string Cost\+Calculation\+APILibrary.\+ICost\+Calculation\+Api.\+Create\+Sub\+Section (\begin{DoxyParamCaption}\item[{string}]{section\+Id}{, }\item[{string}]{username}{, }\item[{double}]{efficiency}{, }\item[{double}]{total\+RMSTCost}{, }\item[{double}]{total\+Cost}{, }\item[{double}]{unit\+Cost\+In\+Requester\+Units}{, }\item[{double}]{unit\+Cost\+In\+Calculated\+Units}{, }\item[{string}]{subsection\+Code}{, }\item[{string}]{subsection\+Name}{, }\item[{string}]{efficiency\+Unit}{}\end{DoxyParamCaption})}
+{\footnotesize\ttfamily \label{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_a2592444ab9076b4d7d243f21480c3299} 
+string Cost\+Calculation\+APILibrary.\+ICost\+Calculation\+Api.\+Create\+Sub\+Section (\begin{DoxyParamCaption}\item[{string}]{section\+Id}{, }\item[{string}]{username}{, }\item[{double}]{efficiency}{, }\item[{double}]{total\+RMSTCost}{, }\item[{double}]{total\+Cost}{, }\item[{double}]{unit\+Cost\+In\+Requester\+Units}{, }\item[{double}]{unit\+Cost\+In\+Calculated\+Units}{, }\item[{string}]{subsection\+Code}{, }\item[{string}]{subsection\+Name}{, }\item[{string}]{efficiency\+Unit}{, }\item[{string}]{group\+Of\+Work}{}\end{DoxyParamCaption})}
 
 
 
@@ -209,7 +211,7 @@ Tworzy nowa podsekcję/panel.
 
 \begin{DoxyCode}{0}
 \DoxyCodeLine{\textcolor{stringliteral}{''}\ Wywołanie\ w\ VBA}
-\DoxyCodeLine{Public\ Function\ \mbox{\hyperlink{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_aa6c4811f9b7379248c8284eb6a7b2a4f}{CreateSubSection}}(sectionId\ As\ String,\ username\ As\ String,\ efficiency\ As\ Double,\ totalRMSTCost\ As\ Double,\ totalCost\ As\ Double,\ unitCostInRequesterUnits\ As\ Double,\ unitCostInCalculatedUnits\ As\ Double,\ Optional\ subsectionCode\ As\ String\ =\ \textcolor{stringliteral}{"{}"{}},Optional\ subsectionName\ As\ String\ =\ \textcolor{stringliteral}{"{}"{}},\ Optional\ efficiencyUnit\ As\ String\ =\ \textcolor{stringliteral}{"{}"{}})\ As\ String}
+\DoxyCodeLine{Public\ Function\ \mbox{\hyperlink{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_a2592444ab9076b4d7d243f21480c3299}{CreateSubSection}}(sectionId\ As\ String,\ username\ As\ String,\ efficiency\ As\ Double,\ totalRMSTCost\ As\ Double,\ totalCost\ As\ Double,\ unitCostInRequesterUnits\ As\ Double,\ unitCostInCalculatedUnits\ As\ Double,\ Optional\ subsectionCode\ As\ String\ =\ \textcolor{stringliteral}{"{}"{}},Optional\ subsectionName\ As\ String\ =\ \textcolor{stringliteral}{"{}"{}},\ Optional\ efficiencyUnit\ As\ String\ =\ \textcolor{stringliteral}{"{}"{}})\ As\ String}
 
 \end{DoxyCode}
 
@@ -236,19 +238,21 @@ Tworzy nowa podsekcję/panel.
 \hline
 {\em efficiency\+Unit} & Jedn. wyd.\\
 \hline
+{\em group\+Of\+Work} & Grupa prac jak w Create\+Section\\
+\hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Zwraca}
 Zwraca identyfikator podsekcjii/kategorii
 \end{DoxyReturn}
 
 
-Implementowany w \mbox{\hyperlink{class_cost_calculation_a_p_i_library_1_1_cost_calculation_api_client_a313c4c0e3552be507dc386f9e443e0b2}{Cost\+Calculation\+APILibrary.\+Cost\+Calculation\+Api\+Client}}.
+Implementowany w \mbox{\hyperlink{class_cost_calculation_a_p_i_library_1_1_cost_calculation_api_client_a2e1e87765392f052837a39bb3c4883b1}{Cost\+Calculation\+APILibrary.\+Cost\+Calculation\+Api\+Client}}.
 
-\Hypertarget{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_af53f5f8cd4306251c55ee21330586f0b}\index{CostCalculationAPILibrary.ICostCalculationApi@{CostCalculationAPILibrary.ICostCalculationApi}!CreateSubSubSection@{CreateSubSubSection}}
+\Hypertarget{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_a94dfc1f6f04686845948b5a1f631837b}\index{CostCalculationAPILibrary.ICostCalculationApi@{CostCalculationAPILibrary.ICostCalculationApi}!CreateSubSubSection@{CreateSubSubSection}}
 \index{CreateSubSubSection@{CreateSubSubSection}!CostCalculationAPILibrary.ICostCalculationApi@{CostCalculationAPILibrary.ICostCalculationApi}}
 \doxysubsubsection{\texorpdfstring{CreateSubSubSection()}{CreateSubSubSection()}}
-{\footnotesize\ttfamily \label{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_af53f5f8cd4306251c55ee21330586f0b} 
-string Cost\+Calculation\+APILibrary.\+ICost\+Calculation\+Api.\+Create\+Sub\+Sub\+Section (\begin{DoxyParamCaption}\item[{string}]{sub\+Section\+Id}{, }\item[{string}]{username}{, }\item[{int}]{type\+Value}{, }\item[{double}]{total\+RMSTCost}{, }\item[{double}]{total\+Cost}{, }\item[{double}]{unit\+Cost\+In\+Requester\+Units}{, }\item[{double}]{unit\+Cost\+In\+Calculated\+Units}{, }\item[{string}]{sub\+Sub\+Section\+Name}{}\end{DoxyParamCaption})}
+{\footnotesize\ttfamily \label{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_a94dfc1f6f04686845948b5a1f631837b} 
+string Cost\+Calculation\+APILibrary.\+ICost\+Calculation\+Api.\+Create\+Sub\+Sub\+Section (\begin{DoxyParamCaption}\item[{string}]{sub\+Section\+Id}{, }\item[{string}]{username}{, }\item[{int}]{type\+Value}{, }\item[{double}]{total\+RMSTCost}{, }\item[{double}]{total\+Cost}{, }\item[{double}]{unit\+Cost\+In\+Requester\+Units}{, }\item[{double}]{unit\+Cost\+In\+Calculated\+Units}{, }\item[{string}]{sub\+Sub\+Section\+Name}{, }\item[{string}]{group\+Of\+Work}{}\end{DoxyParamCaption})}
 
 
 
@@ -257,7 +261,7 @@ Tworzy podesekcje/katgorie np robocizna,materiały.
 
 \begin{DoxyCode}{0}
 \DoxyCodeLine{\textcolor{stringliteral}{''}\ Wywołanie\ w\ VBA}
-\DoxyCodeLine{Public\ Function\ \mbox{\hyperlink{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_af53f5f8cd4306251c55ee21330586f0b}{CreateSubSubSection}}(subSectionId\ As\ String,\ username\ As\ String,\ typeValue\ As\ Long,\ totalRMSTCost\ As\ Double,\ totalCost\ As\ Double,\ unitCostInRequesterUnits\ As\ Double,\ unitCostInCalculatedUnits\ As\ Double,\ Optional\ subSubSectionName\ As\ String\ =\ \textcolor{stringliteral}{"{}"{}})\ As\ String}
+\DoxyCodeLine{Public\ Function\ \mbox{\hyperlink{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_a94dfc1f6f04686845948b5a1f631837b}{CreateSubSubSection}}(subSectionId\ As\ String,\ username\ As\ String,\ typeValue\ As\ Long,\ totalRMSTCost\ As\ Double,\ totalCost\ As\ Double,\ unitCostInRequesterUnits\ As\ Double,\ unitCostInCalculatedUnits\ As\ Double,\ Optional\ subSubSectionName\ As\ String\ =\ \textcolor{stringliteral}{"{}"{}})\ As\ String}
 
 \end{DoxyCode}
 
@@ -280,19 +284,21 @@ Tworzy podesekcje/katgorie np robocizna,materiały.
 \hline
 {\em sub\+Sub\+Section\+Name} & Nazwa np Robocizna, Materiały zgodnie z type\+Value.\\
 \hline
+{\em group\+Of\+Work} & Grupa prac jak w Create\+Section\\
+\hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Zwraca}
 Zwraca identyfikator podkategorii.
 \end{DoxyReturn}
 
 
-Implementowany w \mbox{\hyperlink{class_cost_calculation_a_p_i_library_1_1_cost_calculation_api_client_afd49a2d22a581d779fd1857f1b8ade71}{Cost\+Calculation\+APILibrary.\+Cost\+Calculation\+Api\+Client}}.
+Implementowany w \mbox{\hyperlink{class_cost_calculation_a_p_i_library_1_1_cost_calculation_api_client_ab078ad5e89c79067f60cbb95ebabe844}{Cost\+Calculation\+APILibrary.\+Cost\+Calculation\+Api\+Client}}.
 
-\Hypertarget{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_a4c4e2e3bb1120c9e8fab122927410db7}\index{CostCalculationAPILibrary.ICostCalculationApi@{CostCalculationAPILibrary.ICostCalculationApi}!CreateSubSubSectionItem@{CreateSubSubSectionItem}}
+\Hypertarget{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_a2fa54a5e3f6e7292f10cc83b214e2fe4}\index{CostCalculationAPILibrary.ICostCalculationApi@{CostCalculationAPILibrary.ICostCalculationApi}!CreateSubSubSectionItem@{CreateSubSubSectionItem}}
 \index{CreateSubSubSectionItem@{CreateSubSubSectionItem}!CostCalculationAPILibrary.ICostCalculationApi@{CostCalculationAPILibrary.ICostCalculationApi}}
 \doxysubsubsection{\texorpdfstring{CreateSubSubSectionItem()}{CreateSubSubSectionItem()}}
-{\footnotesize\ttfamily \label{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_a4c4e2e3bb1120c9e8fab122927410db7} 
-string Cost\+Calculation\+APILibrary.\+ICost\+Calculation\+Api.\+Create\+Sub\+Sub\+Section\+Item (\begin{DoxyParamCaption}\item[{string}]{sub\+Sub\+Section\+Id}{, }\item[{string}]{username}{, }\item[{double}]{resource\+Quantity\+For\+Given\+Efficiency}{, }\item[{double}]{resource\+Quantity\+TORMSTQuanity}{, }\item[{double}]{resource\+Unit\+Price}{, }\item[{double}]{total\+Resource\+Cost}{, }\item[{string}]{resource\+Code}{, }\item[{string}]{unit}{, }\item[{string}]{resource\+Name}{}\end{DoxyParamCaption})}
+{\footnotesize\ttfamily \label{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_a2fa54a5e3f6e7292f10cc83b214e2fe4} 
+string Cost\+Calculation\+APILibrary.\+ICost\+Calculation\+Api.\+Create\+Sub\+Sub\+Section\+Item (\begin{DoxyParamCaption}\item[{string}]{sub\+Sub\+Section\+Id}{, }\item[{string}]{username}{, }\item[{double}]{resource\+Quantity\+For\+Given\+Efficiency}{, }\item[{double}]{resource\+Quantity\+TORMSTQuanity}{, }\item[{double}]{resource\+Unit\+Price}{, }\item[{double}]{total\+Resource\+Cost}{, }\item[{string}]{resource\+Code}{, }\item[{string}]{unit}{, }\item[{string}]{resource\+Name}{, }\item[{string}]{group\+Of\+Work}{}\end{DoxyParamCaption})}
 
 
 
@@ -301,7 +307,7 @@ Tworzy pozycje w podkategorii.
 
 \begin{DoxyCode}{0}
 \DoxyCodeLine{\textcolor{stringliteral}{''}\ Wywołanie\ w\ VBA}
-\DoxyCodeLine{Public\ Function\ \mbox{\hyperlink{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_a4c4e2e3bb1120c9e8fab122927410db7}{CreateSubSubSectionItem}}(subSubSectionId\ As\ String,\ username\ As\ String,\ resourceQuantityForGivenEfficiency\ As\ Double,\ resourceQuantityTORMSTQuanity\ As\ Double,\ resourceUnitPrice\ As\ Double,\ totalResourceCost\ As\ Double,\ Optional\ resourceCode\ As\ String\ =\ \textcolor{stringliteral}{"{}"{}},\ Optional\ unit\ As\ String\ =\ \textcolor{stringliteral}{"{}"{}},\ Optional\ resourceName\ As\ String\ =\ \textcolor{stringliteral}{"{}"{}})\ As\ String}
+\DoxyCodeLine{Public\ Function\ \mbox{\hyperlink{interface_cost_calculation_a_p_i_library_1_1_i_cost_calculation_api_a2fa54a5e3f6e7292f10cc83b214e2fe4}{CreateSubSubSectionItem}}(subSubSectionId\ As\ String,\ username\ As\ String,\ resourceQuantityForGivenEfficiency\ As\ Double,\ resourceQuantityTORMSTQuanity\ As\ Double,\ resourceUnitPrice\ As\ Double,\ totalResourceCost\ As\ Double,\ Optional\ resourceCode\ As\ String\ =\ \textcolor{stringliteral}{"{}"{}},\ Optional\ unit\ As\ String\ =\ \textcolor{stringliteral}{"{}"{}},\ Optional\ resourceName\ As\ String\ =\ \textcolor{stringliteral}{"{}"{}})\ As\ String}
 
 \end{DoxyCode}
 
@@ -326,13 +332,15 @@ Tworzy pozycje w podkategorii.
 \hline
 {\em resource\+Name} & Nazwa sprzętu do rodzaju prac/\+Nazwa do rodzaju prac/materialu\\
 \hline
+{\em group\+Of\+Work} & Grupa prac jak w Create\+Section\\
+\hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Zwraca}
 Zwraca identyfikator
 \end{DoxyReturn}
 
 
-Implementowany w \mbox{\hyperlink{class_cost_calculation_a_p_i_library_1_1_cost_calculation_api_client_abe5cb16a5151ed0b89788174ef74f52f}{Cost\+Calculation\+APILibrary.\+Cost\+Calculation\+Api\+Client}}.
+Implementowany w \mbox{\hyperlink{class_cost_calculation_a_p_i_library_1_1_cost_calculation_api_client_ab611d7c656a10348f8337ff12c262358}{Cost\+Calculation\+APILibrary.\+Cost\+Calculation\+Api\+Client}}.
 
 
 
