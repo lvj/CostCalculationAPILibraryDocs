@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['apifunctions_20vba_0',['ApiFunctions.vba',['../index.html#usage_sec',1,'']]]
+  ['apifunctionsmodule_20vb_0',['ApiFunctionsModule.vb',['../index.html#usage_sec',1,'']]]
 ];
